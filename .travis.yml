@@ -8,7 +8,7 @@ install:
  - pip install codecov
 script:
  - python -m unittest TestTriangle
- - python -m coverage run TestTriangle.py
+ - python -m coverage run TestTriangle
  
 after_success:
  - codecov
