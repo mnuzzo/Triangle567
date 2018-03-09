@@ -3,9 +3,6 @@ python:
  - "2.7"
 
 # command to run tests
-install:
- - pip install coverage
- - pip install codecov
 script:
  - python -m unittest TestTriangle
  - python -m coverage TestTriangle
